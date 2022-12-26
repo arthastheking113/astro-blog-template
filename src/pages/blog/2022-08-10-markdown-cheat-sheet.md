@@ -116,3 +116,4 @@ term
 
 ### Reference another markdown file
 - [a relative link to another md file (2022-08-27-how-to-use)](/blog/2022-08-27-how-to-use)
+- `[a relative link to another md file (2022-08-27-how-to-use)](/blog/2022-08-27-how-to-use)`
