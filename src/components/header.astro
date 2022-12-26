@@ -2,6 +2,7 @@
 import { Icon } from 'astro-icon'
 import { NavigationLinks, Logo } from '../config'
 import Search from '../components/search.astro'
+import SearchMobile from '../components/search-mobile.astro'
 import Theme from '../components/theme.astro'
 import SVGImg from '../components/svgimg.astro'
 ---
@@ -76,7 +77,10 @@ import SVGImg from '../components/svgimg.astro'
       <div
         class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0"
       >
-        <Search />
+        <div class="hidden lg:block lg:ml-6">
+          <Search />
+        </div>
+        
         <Theme />
 
         <!-- Right nav -->
@@ -98,26 +102,34 @@ import SVGImg from '../components/svgimg.astro'
     id="mobile-menu"
   >
     <div class="fixed z-50 w-full px-4 py-2 bg-gray-100 dark:bg-gray-800 font-semibold border-purple-300 dark:border-purple-600 border-t-2 border-b-2 flex justify-center">
-      {
-        NavigationLinks.map(item => (
-          <a
-            href={import.meta.env.BASE_URL + item.href}
-            class:list={[
-              (item.href.length > 0 && Astro.url.toString().includes(item.href)
-                ? 'bg-purple-200 text-pink-600 dark:bg-purple-800 dark:text-pink-300'
-                : 'text-purple-600 hover:bg-purple-200 hover:text-pink-600 dark:text-purple-200 dark:hover:bg-purple-800 dark:hover:text-pink-300'),
-              ' px-2'
-            ]}
-            aria-current={
-              item.href.length > 0 && Astro.url.toString().includes(item.href)
-                ? 'page'
-                : undefined
-            }
-          >
-            {item.name}
-          </a>
-        ))
-      }
+      <div>
+        <div>
+          {
+            NavigationLinks.map(item => (
+              <a
+                href={import.meta.env.BASE_URL + item.href}
+                class:list={[
+                  (item.href.length > 0 && Astro.url.toString().includes(item.href)
+                    ? 'bg-purple-200 text-pink-600 dark:bg-purple-800 dark:text-pink-300'
+                    : 'text-purple-600 hover:bg-purple-200 hover:text-pink-600 dark:text-purple-200 dark:hover:bg-purple-800 dark:hover:text-pink-300'),
+                  ' px-2'
+                ]}
+                aria-current={
+                  item.href.length > 0 && Astro.url.toString().includes(item.href)
+                    ? 'page'
+                    : undefined
+                }
+              >
+                {item.name}
+              </a>
+            ))
+          }
+        </div>
+        <div>
+          <SearchMobile />
+        </div>
+      </div>
+      
     </div>
   </div>
 </nav>
