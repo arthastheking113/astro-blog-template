@@ -120,3 +120,10 @@ All commands are run from the root of the project, from a terminal:
 | `yarn lint`         | Check the source code for errors                   |
 | `yarn astro ...`    | Run CLI commands like `astro add`, `astro preview` |
 | `yarn astro --help` | Get help using the Astro CLI                       |
+
+
+## 🔥 How to run!
+- Clone/download this repository
+- Open terminal and cd to the repository folder
+- run `yarn`
+- run `yarn dev` to build the project locally
