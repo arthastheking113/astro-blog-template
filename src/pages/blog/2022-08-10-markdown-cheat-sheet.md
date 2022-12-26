@@ -113,3 +113,6 @@ term
 - [x] Write the press release
 - [ ] Update the website
 - [ ] Contact the media
+
+### Reference another markdown file
+- [a relative link to another md file (2022-08-27-how-to-use)](/blog/2022-08-27-how-to-use)
