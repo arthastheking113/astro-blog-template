@@ -19,7 +19,7 @@ export default defineConfig({
       external: ['svgo'],
     },
   },
-  site: 'https://subtle-gecko-ebdda8.netlify.app',
+  site: 'https://inquisitive-pixie-d9e921.netlify.app/',
   base: '/',
   integrations: [tailwind(), sitemap(), image(), mdx(), alpinejs(), robotsTxt()],
   experimental: {
