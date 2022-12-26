@@ -44,7 +44,7 @@ export const SiteMetadata = {
   },
   location: 'Rivendell, Middle Earth',
   latlng: [-33.86785, 151.20732] as [number, number],
-  repository: 'https://github.com',
+  repository: 'https://github.com/arthastheking113/astro-blog-template',
   social: [
     {
       name: 'Email',
@@ -53,7 +53,7 @@ export const SiteMetadata = {
     },
     {
       name: 'Phone',
-      link: '555-5555',
+      link: 'tel:555-5555',
       icon: 'telephone',
     },
     {
@@ -78,7 +78,7 @@ export const SiteMetadata = {
     },
     {
       name: 'Github',
-      link: 'https://github.com',
+      link: 'https://github.com/arthastheking113/astro-blog-template',
       icon: 'github',
     },
   ],
@@ -155,7 +155,7 @@ export function authorDetail(author: string | undefined) {
 
 export const PAGE_SIZE = 6
 
-export const GITHUB_EDIT_URL = `https://github.com`
+export const GITHUB_EDIT_URL = `https://github.com/arthastheking113/astro-blog-template`
 
 export const COMMUNITY_INVITE_URL = `https://astro.build/chat`
 
