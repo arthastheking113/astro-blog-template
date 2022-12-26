@@ -39,7 +39,7 @@ import SVGImg from '../components/svgimg.astro'
       <div
         class="flex-1 flex items-center justify-center lg:items-stretch lg:justify-start"
       >
-        <div class="flex-shrink-0 flex items-center">
+        <div class="flex-shrink-0 flex items-center hidden lg:block lg:ml-6">
           <SVGImg
             class="block h-12 w-24"
             src={Logo}
@@ -97,7 +97,7 @@ import SVGImg from '../components/svgimg.astro'
     class="absolute top-16 inset-x-0 z-50"
     id="mobile-menu"
   >
-    <div class="px-4 py-2 bg-gray-100 dark:bg-gray-800 font-semibold border-purple-300 dark:border-purple-600 border-t-2 border-b-2 flex justify-center">
+    <div class="fixed z-50 w-full px-4 py-2 bg-gray-100 dark:bg-gray-800 font-semibold border-purple-300 dark:border-purple-600 border-t-2 border-b-2 flex justify-center">
       {
         NavigationLinks.map(item => (
           <a
