@@ -5,7 +5,7 @@ Astro Blog Template is a full featured [Astro](https://astro.build) corporate/ma
 ## [Live Example](https://inquisitive-pixie-d9e921.netlify.app/)
 
 **Note:**
-The orginal template is from [Hello Astro](https://github.com/hellotham/hello-astro). I modified it so it can be used in a universal way. I appreciate the author of this repo and I hope you can give her a star :).
+The orginal template is from [Hello Astro](https://github.com/hellotham/hello-astro). I modified it so it can be used in an universal way. I appreciate the author of this repo and I hope you can give her a star :).
 
 ![Programming-meme](./programming-meme.png)
 
