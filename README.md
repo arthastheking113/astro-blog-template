@@ -2,7 +2,11 @@
 
 Astro Blog Template is a full featured [Astro](https://astro.build) corporate/marketing/blog starter theme written in Typescript and TailwindCSS. It supports Markdown and MDX based pages and blog posts.
 
-**Note**: The orginal template is from [Hello Astro](https://github.com/hellotham/hello-astro). I modified it so it can be used in a universal way. I appreciate the author of this repo and I hope you can give her a star :).
+# Live Example 
+[inquisitive-pixie-d9e921.netlify.app/](inquisitive-pixie-d9e921.netlify.app/)
+
+# Note
+The orginal template is from [Hello Astro](https://github.com/hellotham/hello-astro). I modified it so it can be used in a universal way. I appreciate the author of this repo and I hope you can give her a star :).
 
 # Lighthouse Score
 ![Lighthouse](./lighthouse.png)
