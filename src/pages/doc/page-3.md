@@ -3,6 +3,9 @@ section: Section Header
 title: Page 3
 description: Lorem ipsum dolor sit amet - 3
 layout: ../../layouts/doc.astro
+publishDate: 2022-08-26T00:00:00.000Z
+categories:
+  - Section 2
 ---
 
 This is a fully-featured page, written in Markdown!

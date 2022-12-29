@@ -3,6 +3,9 @@ section: Section Header
 title: Introduction
 description: Docs intro
 layout: ../../layouts/doc.astro
+publishDate: 2022-08-24T00:00:00.000Z
+categories:
+  - Introduction Section
 ---
 
 **Welcome to Astro!**

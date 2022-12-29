@@ -160,12 +160,3 @@ export const GITHUB_EDIT_URL = `https://github.com/arthastheking113/astro-blog-t
 export const COMMUNITY_INVITE_URL = `https://astro.build/chat`
 
 export type Sidebar = Record<string, { text: string; link: string }[]>
-
-export const SIDEBAR: Sidebar = {
-  'Section Header': [
-    { text: 'Introduction', link: 'doc/introduction' },
-    { text: 'Page 2', link: 'doc/page-2' },
-    { text: 'Page 3', link: 'doc/page-3' },
-  ],
-  'Another Section': [{ text: 'Page 4', link: 'doc/page-4' }],
-}
