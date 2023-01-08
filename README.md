@@ -1,6 +1,6 @@
-# Astro Blog Template
+# Astro Blog/Document Template
 
-Astro Blog Template is a full featured [Astro](https://astro.build) corporate/marketing/blog starter theme written in Typescript and TailwindCSS. It supports Markdown and MDX based pages and blog posts.
+Astro Blog/Document Template is a full featured [Astro](https://astro.build) corporate/marketing/blog starter theme written in Typescript and TailwindCSS. It supports Markdown and MDX based pages and blog posts.
 <br/>
 ## [Live Example](https://inquisitive-pixie-d9e921.netlify.app/)
 
